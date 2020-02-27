@@ -1,0 +1,19 @@
+$primary-color: #ff1493;
+
+body{
+    font-family: 'Raleway', ;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+opacity: 0.1;
+height: 100%;
+background-image:url('../images/logo.png');
+ background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+}
