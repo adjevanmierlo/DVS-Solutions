@@ -7,12 +7,23 @@ section {
   height: 100vh;
 }
 
-.container {
+.landing-image img {
+  max-width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   opacity: 0.1;
-  height: 100%;
-  background-image: url("../images/logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+}
+
+.landing-form {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0.5;
 }
 /*# sourceMappingURL=main.css.map */
