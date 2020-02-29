@@ -17,7 +17,7 @@ section {
   opacity: 0.1;
 }
 
-.login-form {
+form {
   text-align: center;
   position: absolute;
   left: 50%;
@@ -50,7 +50,7 @@ section {
 }
 
 .planning img {
-  width: 100%;
+  max-width: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -61,5 +61,15 @@ section {
 
 .bg-light {
   z-index: 1;
+}
+
+.nieuwe-klant img {
+  max-width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0.1;
 }
 /*# sourceMappingURL=main.css.map */

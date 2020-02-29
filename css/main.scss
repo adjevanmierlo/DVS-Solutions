@@ -18,7 +18,7 @@ section {
     opacity: 0.1;
   }
 }
-.login-form {
+form {
   text-align: center;
   position: absolute;
   left: 50%;
@@ -49,7 +49,7 @@ left: 50%;
 }
 
 .planning img{
-  width: 100%;
+  max-width: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -60,3 +60,14 @@ left: 50%;
 .bg-light{
 z-index: 1;
 }
+
+// nieuwe-klant.html
+.nieuwe-klant img{
+  max-width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.1;
+}
+
