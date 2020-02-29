@@ -18,38 +18,63 @@
   </head>
   <body>
     <section>
-<div class="container">
-  <div class="container landing-image">
-    <img src="./images/logo.png" alt="" class="image-fluid">
-  </div>
-  <form class="landing-form">
-    <div class="form-group">
-      <label></label>
-      <input type="text" class="form-control" placeholder="naam" />
-    </div>
-    <div class="form-group">
-      <label></label>
-      <input
-        type="password"
-        class="form-control"
-        placeholder="paswoord"
-      />
-    </div>
-    <br />
-    <div class="form-group">
-      <label></label>
-      <input
-        type="submit"
-        class="form-control btn btn-primary"
-        value="inloggen"
-      />
-    </div>
-    <a class="register" id="registreren" href="#">registreren</a>
-  </form>
-</div>
-</section>
+      <div class="container">
+        <div class="container landing-image">
+          <img src="./images/logo.png" alt="" class="image-fluid" />
+        </div>
+        <form class="login-form">
+          <div class="form-group">
+            <label></label>
+            <input type="text" class="form-control" placeholder="naam" />
+          </div>
+          <div class="form-group">
+            <label></label>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="paswoord"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label></label>
+            <input
+              type="submit"
+              class="form-control btn btn-primary login"
+              value="inloggen"
+            />
+          </div>
+          <a class="register" id="registreren" href="#">registreren</a>
+        </form>
+        <!-- registeer form -->
+        <form class="register-form">
+          <div class="form-group">
+            <label></label>
+            <input type="text" class="form-control" placeholder="naam" />
+          </div>
+          <div class="form-group">
+            <label></label>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="paswoord"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label></label>
+            <input onclick="location.href='index.html';"
+              type="submit"
+              class="form-control btn btn-primary"
+              value="register"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
